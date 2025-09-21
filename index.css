@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "my font";
+  src: url("fonts/MyFont-Regular.woff2") format("woff2"),
+    url("fonts/MyFont-Regular.woff") format("woff"),
+    url(CursedTimerUlil-Aznm.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  background-color: #18244d;
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* border: 1px solid white; */
+  text-align: center;
+  color: #eeeeee;
+}
+.count {
+  width: 155px;
+  height: 120px;
+  font-family: "my font", sans-serif;
+  color: #f94f6d;
+  font-size: 90px;
+  /* border: 1px solid red; */
+  background-color: #080001;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.addition {
+  width: 155px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  width: 45px;
+  height: 45px;
+  font-family: my font;
+  font-size: 18px;
+  font-weight: 400;
+  border: 1px solid #9aabd8;
+  color: #9aabd8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
